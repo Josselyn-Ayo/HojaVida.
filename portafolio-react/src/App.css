@@ -1,0 +1,116 @@
+/* Contenedor principal */
+.contenedor {
+  display: flex;
+  flex-direction: row; 
+  width: 100vw;        
+  min-height: 100px;   
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #fff;
+}
+
+/* left-column */
+.left-column {
+  width: 50%;
+  background-color: #e9d2d9;
+  padding: 30px 20px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column; 
+  gap: 30px;
+  align-items: left;
+  overflow-y: auto; 
+}
+
+/* right-column */
+.right-column {
+  width: 40%;
+  background-color: #fff;
+  padding: 30px 20px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column; 
+  gap: 30px;
+  overflow-y: auto;
+  color: #4a4a4a;
+}
+
+/* Para las listas, títulos  */
+.left-column h2,
+.right-column h2 {
+  font-size: 20px;
+  color: #8d4461;
+  border-bottom: 2px solid #b899a5;
+  padding-bottom: 6px;
+  margin-bottom: 15px;
+  font-weight: 600;
+  width: 100%;
+  text-align: left;
+}
+
+.left-column ul,
+.right-column ul {
+  list-style: none;
+  padding-left: 20px;
+  font-size: 15px;
+  width: 100%;
+}
+
+.left-column li,
+.right-column li {
+  position: relative;
+  padding-left: 18px;
+  margin-bottom: 10px;
+  line-height: 1.4;
+}
+
+.left-column li::before,
+.right-column li::before {
+  content: "•";
+  position: absolute;
+  left: 0;
+  color: #8d4461;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 1;
+}
+
+/* Imagen */
+.left-column img {
+  width: 140px;
+  height: 140px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 4px solid white;
+  box-shadow: 0 3px 12px rgba(0,0,0,0.15);
+  margin-top: 10px;
+  margin-bottom: 15px;
+  display: block;
+}
+
+/* Pie de página */
+.right-column footer {
+  border-top: 2px solid #eee;
+  padding-top: 20px;
+  font-weight: 600;
+  font-size: 15px;
+  color: #6e475b;
+  width: 100%;
+}
+
+.right-column footer ul {
+  padding: 0;
+}
+
+.right-column footer li {
+  margin: 6px 0;
+}
+
+
+
+
+
+
+
+
