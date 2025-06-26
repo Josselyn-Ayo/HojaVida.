@@ -1,12 +1,47 @@
-# React + Vite
+# Hoja de vida - Josselyn Ayo
+Este es un proyecto web personal desarrollado con React, donde presento mi hoja de vida de manera visual y organizada.
+## Tecnologías utilizadas
+- React
+- HTML y CSS
+- Vite ( o Create React App, según lo que estés usando)
+- JavaScript
+  
+## Estructura de carpetas
+/public
+└──Imagenes/
+└──Fotos.jpg
+/src
+├── components/
+|├── Contacto.jsx
+|├── CursosRealizados.jsx
+|├── DatosPersonales.jsx
+|├── Estudios.jsx
+|├── Experiencia.jsx
+|├── HabilidadesBlandas.jsx
+|├── HabilidadesTecnicas.jsx
+|├── NombreApellido.jsx
+|├── ReferenciasPersonales.jsx
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Requisitos
+-Node.js instalado https://nodejs.org/es
+verificas si tienes con node -v y npm -v
 
-Currently, two official plugins are available:
+## Cómo ejecutar el proyecto
+1. Clonar o descargar el repositorio.
+  Abre la terminal y escribe:
+  ```bash
+git clone https://github.com/tu-usuario/HojaVida..git
+cd HojaVida.
+2. Abre una terminal en la carpeta del proyecto
+3. Instala las dependencias:
+```bash
+npm install
+4. Inicia el servidor de desarrollo:
+npm run dev
+5. Abre el navegador en:
+http://Localhost:5173/
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+   
 
-## Expanding the ESLint configuration
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+
