@@ -21,6 +21,8 @@ Este es un proyecto web personal desarrollado con React, donde presento mi hoja 
 |├── HabilidadesTecnicas.jsx
 |├── NombreApellido.jsx
 |├── ReferenciasPersonales.jsx
+├── App.jsx
+└── index.css
 
 ## Requisitos
 -Node.js instalado https://nodejs.org/es
@@ -32,12 +34,16 @@ verificas si tienes con node -v y npm -v
   ```bash
 git clone https://github.com/tu-usuario/HojaVida..git
 cd HojaVida.
+
 2. Abre una terminal en la carpeta del proyecto
+
 3. Instala las dependencias:
 ```bash
 npm install
+
 4. Inicia el servidor de desarrollo:
 npm run dev
+
 5. Abre el navegador en:
 http://Localhost:5173/
 
